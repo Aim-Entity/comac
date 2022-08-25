@@ -37,11 +37,10 @@
 
 	.service-grids {
 		display: grid;
+		align-items: center;
+		justify-items: center;
 		grid-template-columns: 1fr 1fr;
-	}
-
-	.service-grids div {
-		width: 90px;
+		width: 100%;
 	}
 
 	.cert-cont {
@@ -68,8 +67,10 @@
 	}
 
 	.service-cont {
-		height: 80px;
-		width: 80px;
+		height: 140px;
+		width: 66px;
 		margin-top: 60px;
+		padding: 0px;
+		margin-right: 0px;
 	}
 }
